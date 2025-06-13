@@ -60,6 +60,15 @@
           }
         }
       },
+      "Ignore/0.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Ignore.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Ignore.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "type": "package",
         "compile": {
@@ -1659,6 +1668,19 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Ignore/0.2.1": {
+      "sha512": "Qw3s0pTwK3o6Iv6kTMjmxzOt91pczU533OmtAvFRsJ7PdCVMhGCRyUkMsCOI7ejxOtHJdRsj141HeZWeedlqkQ==",
+      "type": "package",
+      "path": "ignore/0.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ignore.0.2.1.nupkg.sha512",
+        "ignore.nuspec",
+        "lib/net8.0/Ignore.dll",
+        "lib/netstandard2.0/Ignore.dll"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
@@ -4716,6 +4738,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Ignore >= 0.2.1",
       "Microsoft.EntityFrameworkCore >= 9.0.6",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.6",
@@ -4773,6 +4796,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Ignore": {
+            "target": "Package",
+            "version": "[0.2.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[9.0.6, )"
