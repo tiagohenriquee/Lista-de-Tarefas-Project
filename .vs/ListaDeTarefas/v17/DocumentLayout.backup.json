@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\tiago.silva\\source\\repos\\listadetarefas\\listadetarefas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\tiago.silva\\source\\repos\\listadetarefas\\listadetarefas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\tiago.silva\\source\\repos\\listadetarefas\\listadetarefas\\models\\filtrosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\models\\filtrosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\tiago.silva\\source\\repos\\listadetarefas\\listadetarefas\\models\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\models\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\tiago.silva\\source\\repos\\listadetarefas\\listadetarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\tiago.silva\\source\\repos\\listadetarefas\\listadetarefas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73A66D3A-F361-4521-A4B2-C2BDBC64D57F}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".gitattributes",
-              "DocumentMoniker": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\.gitattributes",
-              "RelativeDocumentMoniker": ".gitattributes",
-              "ToolTip": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\.gitattributes",
-              "RelativeToolTip": ".gitattributes",
+              "DocumentIndex": 3,
+              "Title": "CategoriaModel.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Models\\CategoriaModel.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Models\\CategoriaModel.cs",
+              "ToolTip": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Models\\CategoriaModel.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Models\\CategoriaModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-06-13T14:09:50.786Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T13:16:39.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ListaDeTarefas\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T18:14:53.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-06-13T14:09:19.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ListaDeTarefas\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T13:55:08.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FiltrosModel.cs",
               "DocumentMoniker": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Models\\FiltrosModel.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\Models\\FiltrosModel.cs",
               "ToolTip": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Models\\FiltrosModel.cs",
               "RelativeToolTip": "ListaDeTarefas\\Models\\FiltrosModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T13:38:21.212Z"
+              "WhenOpened": "2025-06-18T19:01:24.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Program.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Program.cs",
+              "ToolTip": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Program.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T19:03:26.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\tiago.silva\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T13:16:41.016Z"
             }
           ]
         }

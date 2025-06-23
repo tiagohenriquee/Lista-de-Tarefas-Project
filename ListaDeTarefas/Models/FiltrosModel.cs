@@ -11,7 +11,6 @@
             CategoriaId = filtros[0];
             Vencimento = filtros[1];
             StatusId = filtros[2];
-
         }
 
         public string FiltroString { get; set; }
