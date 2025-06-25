@@ -55,15 +55,71 @@ namespace ListaDeTarefas.Controllers
             var tarefas = consulta.OrderBy(t => t.DataVencimento).ToList();
 
 
-
-
             return View(tarefas);
+            }
+
+        [HttpGet]
+        public IActionResult Adicionar()
+            {
+            ViewBag.Categorias = _context.Categorias.ToList();
+            ViewBag.Status = _context.Statuses.ToList();
+
+            var tarefa = new TabelaModel { StatusId = "aberto" };
+
+            return View(tarefa);
+            }
+
+        [HttpPost]
+        public IActionResult Adicionar(TabelaModel tarefa)
+            {
+            if (ModelState.IsValid)
+                {
+                _context.Tarefas.Add(tarefa);
+                _context.SaveChanges();
+
+                return RedirectToAction("Index");
+
+                }
+            else
+                {
+                ViewBag.Categorias = _context.Categorias.ToList();
+                ViewBag.Status = _context.Statuses.ToList();
+
+                return View(tarefa);
+
+                }
             }
 
         [HttpPost]
         public IActionResult Filtrar(string[] filtro)
             {
             string id = string.Join('-', filtro);
+            return RedirectToAction("Index", new { ID = id });
+            }
+
+        [HttpPost]
+        public IActionResult MarcarCompleto([FromRoute] string id, TabelaModel tarefaselecionada)
+            {
+            tarefaselecionada = _context.Tarefas.Find(tarefaselecionada.Id);
+
+            if (tarefaselecionada != null)
+                {
+                tarefaselecionada.StatusId = "completo";
+                _context.SaveChanges();
+                }
+            return RedirectToAction("Index", new { ID = id });
+            }
+
+        [HttpPost]
+        public IActionResult DeletarCompletos(string id)
+            {
+            var paraDeletar = _context.Tarefas.Where(s => s.StatusId == "completo").ToList();
+
+            foreach (var tarefa in paraDeletar)
+                {
+                _context.Tarefas.Remove(tarefa);
+                }
+            _context.SaveChanges();
             return RedirectToAction("Index", new { ID = id });
             }
         }
